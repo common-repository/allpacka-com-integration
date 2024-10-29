@@ -1,0 +1,432 @@
+.manage-column.column-allpacka {
+  padding-bottom: 3px;
+  padding-top: 3px;
+  width:160px;
+  text-align: center;
+  background-image: linear-gradient(30deg, #330c80, #6221f2 39%, #63cff7 83%);
+}
+
+
+.manage-column.column-allpacka span {
+  display: inline-block;
+  font-family: "Dosis";
+  color: #19314C;
+}
+
+.manage-column.column-allpacka > span  span {
+  color: #C82135;
+}
+
+
+.manage-column.column-allpacka > span img {
+  display: inline-block;
+    height: 22px;
+    margin: 0px;
+}
+
+.allpacka.column-allpacka p {
+  margin: 0;
+}
+
+.allpacka.column-allpacka {
+  text-align: center;
+}
+
+/**********************************************************************************************************************************************************************/
+
+#allpacka_meta_box .allpacka_order_meta_box_fejlec {
+  height: 21px;
+	line-height: 21px;
+}
+
+#allpacka_meta_box .allpacka_order_meta_box_fejlec img {
+  display: inline-block;
+	height: 21px;
+    vertical-align: text-top;
+}
+
+#allpacka_meta_box .toggle-indicator::before {
+  color: #ffffff;
+}
+
+#allpacka_meta_box p {
+  margin: 0;
+}
+
+#allpacka_meta_box .inside {
+    text-align: center;
+}
+
+#allpacka_meta_box  .allpacka_order_meta_box_fejlec span {
+  color: rgb(255, 255, 255);
+  font-family: dosis;
+}
+
+#allpacka_meta_box  .allpacka_order_meta_box_fejlec span span {
+  color: #C82135;
+}
+
+#allpacka_meta_box p span {
+  line-height: 26px;
+  vertical-align: top;
+  display: block;
+}
+
+#allpacka_meta_box .postbox-header {
+	background-image: linear-gradient(30deg, #330c80, #6221f2 39%, #63cff7 83%);
+}
+
+/**********************************************************************************************************************************************************************/
+
+.input_width_30{
+    width: 30%;
+}
+
+/**********************************************************************************************************************************************************************/
+
+.allpacka_notice img{
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: sub;
+    height: 20px;
+    margin-left: -40px;
+}
+
+.allpacka_notice pre{
+    overflow-y:auto;
+}
+
+.error.allpacka_notice strong{
+	color: #dc3232;
+}
+
+.updated.allpacka_notice strong {
+	color: #46b450;
+}
+
+.allpacka_info.allpacka_notice strong {
+	color: orange;
+}
+
+.allpacka_notice div {
+	padding-left: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.allpacka_warning.allpacka_notice strong{
+	color: #ffb900;
+}
+
+
+/**********************************************************************************************************************************************************************/
+
+.allpacka_gomb {
+  height: 26px !important;
+  padding: 0 !important;
+  width: 26px !important;
+  margin-left: 5px !important;
+}
+
+
+.allpacka_gomb.allpacka_nyomkovetes_gomb {
+  background: rgb(247, 247, 247) url("..//images/nyomkovetes_ikon.png") no-repeat scroll center center / 70% auto !important;
+}
+
+.allpacka_gomb.allpacka_fuvarlevel_gomb {
+  background: rgb(247, 247, 247) url("..//images/fuvarlevel_ikon.png") no-repeat scroll center center / 70% auto !important;
+}
+
+.allpacka.column-allpacka span {
+  display: inline-block;
+  line-height: 26px;
+  vertical-align: top;
+}
+
+
+.allpacka_megrendeles_gomb {
+  background-image: url("..//images/megrendeles_ikon.png") !important;
+  background-position: 5px center !important;
+  background-repeat: no-repeat !important;
+  background-size: 15% auto !important;
+  padding-left: 25px !important;
+}
+
+.allpacka_megrendeles_gomb.allpacka_ujrarendeles_gomb {
+  margin-bottom:10px;
+}
+/**********************************************************************************************************************************************************************/
+
+body.woocommerce_page_wc-settings a.nav-tab[href$="tab=allpacka"] {
+    padding: 0px;
+    height: 34px;
+    background-image: linear-gradient(30deg, #330c80, #6221f2 39%, #63cff7 83%);
+}
+
+body.woocommerce_page_wc-settings a.nav-tab[href$="tab=allpacka"].nav-tab-active {
+  background-image: linear-gradient(30deg, #330c80, #6221f2 39%, #63cff7 83%);
+}
+
+body.woocommerce_page_wc-settings a.nav-tab[href$="tab=allpacka"] img {
+  height: 34px;
+  /*margin-right: 10px;
+  vertical-align: text-top;*/
+}
+
+body.woocommerce_page_wc-settings a.nav-tab[href$="tab=allpacka"] span {
+  color: #19314c;
+  font-family: dosis;
+}
+
+
+body.woocommerce_page_wc-settings a.nav-tab[href$="tab=allpacka"] span span {
+    color: #C82135;
+}
+
+
+body.woocommerce_page_wc-settings a.nav-tab[href$="tab=allpacka"].nav-tab-active span {
+  color: #fff;
+}
+
+body.woocommerce_page_wc-settings a.nav-tab[href$="tab=allpacka"].nav-tab-active span span{
+  color: #C82135;
+}
+
+
+
+body.woocommerce_page_wc-settings a.nav-tab[href$="tab=allpacka"].nav-tab-active {
+  background-image: linear-gradient(30deg, #330c80, #6221f2 39%, #63cff7 83%);
+}
+
+
+/**********************************************************************************************************************************************************************/
+
+.allpacka_spinner{
+    visibility: visible;
+    float: none;
+}
+
+/**********************************************************************************************************************************************************************/
+
+.button.fuvarlevel_letoltes{
+    vertical-align: baseline;
+    margin-left: 10px;
+}
+
+/**********************************************************************************************************************************************************************/
+/**********************************************************************************************************************************************************************/
+/**********************************************************************************************************************************************************************/
+/**********************************************************************************************************************************************************************/
+/**********************************************************************************************************************************************************************/
+/**********************************************************************************************************************************************************************/
+
+#order_data .order_data_column span.allpacka_kivalasztott_gls_csomagpont_szerkesztes::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	vertical-align: top;
+	line-height: 14px;
+	font-size: 14px;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+    font-family: Dashicons;
+    content: '\f464';
+    cursor: pointer;
+
+}
+
+#order_data .order_data_column span.allpacka_kivalasztott_gls_csomagpont_szerkesztes {
+	width: 14px;
+	height: 0;
+	padding: 14px 0 0;
+	margin: 0 0 0 6px;
+	overflow: hidden;
+	position: relative;
+	color: #999;
+	border: 0;
+	float: right;
+}
+
+#order_data .order_data_column div.allpacka_kivalasztott_gls_csomagpont_szerkesztes{
+    display: none;
+}
+
+/**********************************************************************************************************************************************************************/
+
+#allpacka_gls_csomagpont_kontener {
+	margin-bottom: 40px;
+}
+
+.allpacka_gls_csomagpont_filter_kontener {
+	border: 1px solid rgb(242, 241, 241);
+	padding: 5px;
+	border-bottom: 0px;
+}
+
+#allpacka_gls_csomagpont_filter {
+	width: 100%;
+}
+
+.allpacka_gls_csomagpont_lista_kontener {
+	border: 1px solid rgb(242, 241, 241);
+	padding: 5px;
+    margin-bottom: 20px;
+}
+
+.allpacka_gls_csomagpont_lista_elemek {
+	max-height: 250px;
+	overflow-y: auto;
+	border: 1px solid rgb(242, 241, 241);
+}
+
+.allpacka_gls_csomagpont_lista_elem div {
+	font-style: italic;
+	font-size: smaller;
+}
+
+.allpacka_gls_csomagpont_lista_elem {
+	border-top: 1px solid rgb(242, 241, 241);
+	padding: 10px;
+	padding-right: 10px;
+	background: #fff;
+	line-height: 25px;
+	cursor: pointer;
+}
+
+.allpacka_gls_csomagpont_lista_elem:nth-child(even) {
+    background: #CCCCCC1A;
+}
+
+.allpacka_gls_csomagpont_lista_elem.allpacka_gls_csomagpont_kivalasztott_lista_elem {
+	background: #1f2457;
+	color: #fff;
+}
+
+#allpacka_kivalasztott_gls_csomagpont {
+	display: none;
+}
+
+.allpacka_gls_csomagpont_kivalasztas {
+	display: inline-block;
+	padding: 6px 10px;
+	background: #1f2457;
+	color: #fff;
+	font-weight: bold;
+	transition: all 0.3s linear 0s;
+	cursor: pointer;
+}
+
+.allpacka_gls_csomagpont_kivalasztas:hover {
+	background: #f8b514;
+}
+
+.allpacka_gls_csomagpont_kivalasztott_kontener_cim{
+    display: none;
+}
+
+.allpacka_kivalasztott_gls_csomagpont_torles {
+	color: #0073aa;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.allpacka_kivalasztott_gls_csomagpont_torles:hover {
+	color: #00a0d2;
+}
+
+/**********************************************************************************************************************************************************************/
+
+
+#allpacka_tracking_meta_box .allpacka_order_meta_box_fejlec {
+  height: 21px;
+    line-height: 21px;
+}
+
+#allpacka_tracking_meta_box .allpacka_order_meta_box_fejlec img {
+  display: inline-block;
+	height: 21px;
+    vertical-align: text-top;
+}
+
+#allpacka_tracking_meta_box .toggle-indicator::before {
+  color: #ffffff;
+}
+
+#allpacka_tracking_meta_box p {
+  margin: 0;
+}
+
+#allpacka_tracking_meta_box .inside {
+    text-align: center;
+}
+
+#allpacka_tracking_meta_box  .allpacka_order_meta_box_fejlec span {
+  color: rgb(255, 255, 255);
+  font-family: dosis;
+}
+
+#allpacka_tracking_meta_box  .allpacka_order_meta_box_fejlec span span {
+  color: #C82135;
+}
+
+#allpacka_tracking_meta_box p span {
+  line-height: 26px;
+  vertical-align: top;
+  display: block;
+}
+
+#allpacka_tracking_meta_box .postbox-header {
+	background-image: linear-gradient(30deg, #330c80, #6221f2 39%, #63cff7 83%);
+}
+
+/**********************************************************************************************************************************************************************/
+
+
+.allpacka_tracking_tablazat {
+	width: 100%;
+	display: table;
+	border-left: 1px solid #19314c;
+	border-right: 1px solid #19314c;
+	border-top: 1px solid #19314c;
+	/* font-size: 12px; */
+	border-radius: 5px;
+	border-bottom: 1px solid #19314c;
+    margin-top: 10px;
+}
+
+.allpacka_tracking_tablazat_sor {
+	width: 100%;
+	display: table-row;
+}
+
+.allpacka_tracking_tablazat_sor_cella {
+	display: table-cell;
+	padding: 5px 5px;
+	border-bottom: 1px solid #19314c;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.allpacka_tracking_tablazat_sor:last-of-type .allpacka_tracking_tablazat_sor_cella {
+	border-bottom: none;
+}
+
+.allpacka_tracking_tablazat_sor_cella_datum {
+	width: 35%;
+}
+
+.allpacka_tracking_tablazat_sor_cella_nev {
+	width: 55%;
+}
+
+.allpacka_tracking_tablazat_sor_cella_ikon {
+	width: 10%;
+}
+
+.allpacka_tracking_tablazat_sor_cella_ikon img {
+	width: 28px;
+}
+
+/**********************************************************************************************************************************************************************/
+

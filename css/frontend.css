@@ -1,0 +1,121 @@
+#allpacka_gls_csomagpont_kontener {
+	margin-bottom: 40px;
+}
+
+.allpacka_gls_csomagpont_filter_kontener {
+	border: 1px solid rgb(242, 241, 241);
+	padding: 5px;
+	border-bottom: 0px;
+}
+
+#allpacka_gls_csomagpont_filter {
+	width: 100%;
+}
+
+.allpacka_gls_csomagpont_lista_kontener {
+	border: 1px solid rgb(242, 241, 241);
+	padding: 5px;
+}
+
+.allpacka_gls_csomagpont_lista_elemek {
+	max-height: 250px;
+	overflow-y: auto;
+	border: 1px solid rgb(242, 241, 241);
+}
+
+.allpacka_gls_csomagpont_lista_elem div {
+	font-style: italic;
+	font-size: smaller;
+}
+
+.allpacka_gls_csomagpont_lista_elem {
+	border-top: 1px solid rgb(242, 241, 241);
+	padding: 10px;
+	padding-right: 10px;
+	background: #fff;
+	line-height: 25px;
+	cursor: pointer;
+}
+
+.allpacka_gls_csomagpont_lista_elem:nth-child(even) {
+    background: #CCCCCC1A;
+}
+
+.allpacka_gls_csomagpont_lista_elem.allpacka_gls_csomagpont_kivalasztott_lista_elem {
+	background: #1f2457;
+	color: #fff;
+}
+
+
+#allpacka_kivalasztott_gls_csomagpont {
+	display: none;
+}
+
+.allpacka_gls_csomagpont_kivalasztas {
+	display: inline-block;
+	padding: 6px 10px;
+	background: #1f2457;
+	color: #fff;
+	font-weight: bold;
+	transition: all 0.3s linear 0s;
+	cursor: pointer;
+}
+
+.allpacka_gls_csomagpont_kivalasztas:hover {
+	background: #f8b514;
+}
+
+.allpacka_gls_csomagpont_kivalasztott_kontener {
+	min-height: 80px;
+	padding: 5px;
+	border: 1px solid rgb(242, 241, 241);
+	border-top: 0px;
+}
+
+.allpacka_gls_csomagpont_kivalasztott_kontener_adatok {
+	font-style: italic;
+	color: #f8b514;
+}
+
+.allpacka_gls_csomagpont_kivalasztott_kontener_adatok.allpacka_gls_csomagpont_kivalasztott_kontener_adatok_ures {
+	font-size: smaller;
+}
+
+.allpacka_gls_csomagpont_terkep_kontener {
+	border: 1px solid rgb(242, 241, 241);
+	padding: 5px;
+	border-bottom: 0px;
+}
+
+.allpacka_gls_csomagpont_infowindow_nev {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.allpacka_gls_csomagpont_infowindow_cim {
+	text-align: center;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.allpacka_gls_csomagpont_infowindow_gomb {
+	text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;	
+}
+
+.allpacka_gls_csomagpont_infowindow {
+	color: #1f2457;
+}
+
+.allpacka_gls_csomagpont_szallitas_kalkulator_eltuntetese{
+    display: none;
+    visibility: hidden;
+}
+
+

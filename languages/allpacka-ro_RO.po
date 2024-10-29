@@ -1,0 +1,705 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pactic\n"
+"POT-Creation-Date: 2022-09-20 10:20+0100\n"
+"PO-Revision-Date: 2022-09-20 10:27+0100\n"
+"Last-Translator: \n"
+"Language-Team: Pactic\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: allpacka-integration.php:64
+msgid "not selected yet"
+msgstr "nu s-a făcut o selecție încă"
+
+#: includes/allpacka.php:71
+msgid "Place order"
+msgstr "Plasează comanda"
+
+#: includes/allpacka.php:76 includes/allpacka.php:85
+msgid "Reorder"
+msgstr "Plasează o nouă comandă"
+
+#: includes/allpacka.php:78 includes/allpacka.php:88
+msgid "Order ID:"
+msgstr "Număr de comandă:"
+
+#: includes/allpacka.php:80
+msgid "The waybill will be sent to you by the Pactic Customer Service."
+msgstr ""
+"Eticheta de transport îți va fi trimisă de către Serviciul Clienți Pactic.ro"
+
+#: includes/allpacka.php:92 includes/allpacka.php:766
+#: includes/allpacka.php:820 includes/allpacka.php:852
+msgid "Waybill number:"
+msgstr "Număr AWB:"
+
+#: includes/allpacka.php:96
+msgid "View"
+msgstr "Vizualizare"
+
+#: includes/allpacka.php:102
+msgid "Package status:"
+msgstr "Statusul coletului:"
+
+#: includes/allpacka.php:108 includes/allpacka.php:176
+msgid "Tracking"
+msgstr "Urmărire"
+
+#: includes/allpacka.php:327
+msgid "Settings"
+msgstr "Setări"
+
+#: includes/allpacka.php:352
+msgid "General settings"
+msgstr "Setări generale"
+
+#: includes/allpacka.php:356
+msgid "Enable / Disable"
+msgstr "Activează/dezactivează"
+
+#: includes/allpacka.php:359
+msgid "Enable Pactic"
+msgstr "Activează Pactic"
+
+#: includes/allpacka.php:364
+msgid "Test environment"
+msgstr "Mediu de test"
+
+#: includes/allpacka.php:367
+msgid "Use test environment"
+msgstr "Utilizează mediu de test"
+
+#: includes/allpacka.php:372
+msgid "Debug mode"
+msgstr "Mod debug"
+
+#: includes/allpacka.php:375
+msgid "Show request sent to and response received from Pactic."
+msgstr "Arată cererea trimisă către Pactic și răspunsul primit."
+
+#: includes/allpacka.php:380
+msgid "Additional payment methods"
+msgstr "Metode suplimentare de plată  ramburs"
+
+#: includes/allpacka.php:384 includes/allpacka.php:1590
+msgid "The plug-in automatically chooses the default payment method:"
+msgstr "Plugin-ul alege automat metoda de plată ramburs implicită:"
+
+#: includes/allpacka.php:385
+msgid "Additional payment methods for COD in your webshop. Set up here."
+msgstr ""
+"Metode suplimentare de plată COD în magazinul tău online. Setează aici."
+
+#: includes/allpacka.php:394
+msgid "Pactic account details"
+msgstr "Detaliile contului Pactic"
+
+#: includes/allpacka.php:399
+msgid "Email address"
+msgstr "Adresa de email"
+
+#: includes/allpacka.php:401
+msgid "Email address used to register on Pactic"
+msgstr "Adresa de email utilizată pentru înregistrarea pe Pactic"
+
+#: includes/allpacka.php:404
+msgid "something@something.com"
+msgstr "mail@mail.com"
+
+#: includes/allpacka.php:408
+msgid "Password"
+msgstr "Parola"
+
+#: includes/allpacka.php:410
+msgid "Password on Pactic"
+msgstr "Parola contului Pactic"
+
+#: includes/allpacka.php:421
+msgid "Pactic terms and conditions"
+msgstr "Termeni și condiții Pactic"
+
+#: includes/allpacka.php:426
+msgid ""
+"I declare that my package does not contain any dangerous and/or forbidden "
+"item."
+msgstr ""
+"Declar că pachetul meu nu conține produse interzise și/sau periculoase."
+
+#: includes/allpacka.php:429
+msgid "List of dangerous and/or forbidden items can be found on Pactic:"
+msgstr ""
+"Lista produselor interzise și/sau periculoase poate fi găsită pe Pactic:"
+
+#: includes/allpacka.php:434
+msgid "I've read and understood the Terms and Conditions of Pactic."
+msgstr ""
+"Am citit și am înțeles Termenii și Condițiile Generale de Transport ale "
+"Pactic."
+
+#: includes/allpacka.php:437
+msgid "Terms and Conditions can be found on Pactic:"
+msgstr "Termenii și Condițiile Generale de Transport pot fi găsite pe Pactic:"
+
+#: includes/allpacka.php:446
+msgid "Collection details"
+msgstr "Detaliile colectării"
+
+#: includes/allpacka.php:448
+msgid ""
+"If you already specified this default data on Pactic, it is not mandatory to "
+"provide them here."
+msgstr ""
+"Dacă ai specificat deja aceste date implicite pe Pactic, nu este necesar să "
+"le furnizezi și aici."
+
+#: includes/allpacka.php:451
+msgid "Sender's name"
+msgstr "Numele expeditorului"
+
+#: includes/allpacka.php:454
+msgid "John Doe"
+msgstr "Ion Popescu"
+
+#: includes/allpacka.php:458
+msgid "Name of Sender's bank"
+msgstr "Numele băncii expeditorului"
+
+#: includes/allpacka.php:461
+msgid "UniCredit"
+msgstr "UniCredit"
+
+#: includes/allpacka.php:465
+msgid "Bank account number of sender"
+msgstr "Contul bancar al expeditorului"
+
+#: includes/allpacka.php:468
+msgid "XX1234567890 or 12345678-12345678-12345678"
+msgstr "ROXXXXXXXXXXXXXXXXXXXXXX"
+
+#: includes/allpacka.php:476
+msgid "Waybills"
+msgstr "Eticheta de transport"
+
+#: includes/allpacka.php:478
+msgid " If you want to delete the PDF waybills you have generated, click here!"
+msgstr "Pentru anularea etichetelor PDF generate, click aici!"
+
+#: includes/allpacka.php:478
+msgid "Waybills cancellation"
+msgstr "Anulare etichete de transport"
+
+#: includes/allpacka.php:717
+msgid "Request sent to Pactic:"
+msgstr "Cererea a fost trimisă către Pactic:"
+
+#: includes/allpacka.php:717
+msgid "Response received from Pactic:"
+msgstr "Răspunsul primit de la Pactic:"
+
+#: includes/allpacka.php:721 includes/allpacka.php:728
+#: includes/allpacka.php:730 includes/allpacka.php:745
+#: includes/allpacka.php:795
+msgid "Error message from Pactic:"
+msgstr "Mesaj de eroare din partea Pactic:"
+
+#: includes/allpacka.php:726 includes/allpacka.php:780
+#: includes/allpacka.php:782 includes/allpacka.php:865
+#: includes/allpacka.php:867 includes/allpacka.php:874
+#: includes/allpacka.php:876
+msgid "Unsuccesful Pactic order."
+msgstr "Comandă Pactic nereușită."
+
+#: includes/allpacka.php:726 includes/allpacka.php:766
+#: includes/allpacka.php:780 includes/allpacka.php:807
+#: includes/allpacka.php:818 includes/allpacka.php:850
+#: includes/allpacka.php:865 includes/allpacka.php:874
+msgid "Webshop order ID:"
+msgstr "Număr comandă magazin online:"
+
+#: includes/allpacka.php:726 includes/allpacka.php:730
+msgid "No response received from Pactic for the ORDER request."
+msgstr "Niciun răspuns primit din partea Pactic pentru cererea de COMANDĂ."
+
+#: includes/allpacka.php:726
+msgid "Password or email address probably wrong."
+msgstr "Parolă sau email greșit."
+
+#: includes/allpacka.php:766 includes/allpacka.php:818
+#: includes/allpacka.php:850
+msgid "Successful Pactic order."
+msgstr "Comanda Pactic a fost înregistrată cu succes."
+
+#: includes/allpacka.php:766 includes/allpacka.php:807
+#: includes/allpacka.php:819 includes/allpacka.php:851
+msgid "Pactic order ID:"
+msgstr "Număr comandă Pactic:"
+
+#: includes/allpacka.php:766
+msgid "The waybill contains fake data in test mode!"
+msgstr "AWB-ul conține date false în modul de test!"
+
+#: includes/allpacka.php:770
+#, php-format
+msgid ""
+"Successful Pactic order. Pactic order ID: %s. Waybill number: %s. <em>The "
+"waybill contains fake data in test mode!</em>"
+msgstr ""
+"Comandă Pactic procesată cu succes.  Numărul comenzii Pactic: %s. Număr AWB: "
+"%s. <em>AWB-ul conține date false în modul de test!</em>"
+
+#: includes/allpacka.php:807
+msgid "Successful Pactic order, but a label/waybill was not generated."
+msgstr ""
+"Comandă a fost înregistrată cu success pe Pactic, dar nu a fost generată "
+"eticheta de transport (AWB)."
+
+#: includes/allpacka.php:807
+msgid ""
+"The Customer Service of Pactic corrects the mistake and sends you an email."
+msgstr ""
+"Serviciul de Relații Clienți va corecta greșeala și va trimite un e-mail cu "
+"eticheta."
+
+#: includes/allpacka.php:809
+msgid ""
+"Successful Pactic order, but a label/waybill was not generated. The Customer "
+"Service of Pactic corrects the mistake and sends you an email."
+msgstr ""
+"Comanda Pactic reușita, dar nu a fost generat un AWB. Personalul Relații cu "
+"Clienții va corecta greșeala și va trimite AWB-ul prin email."
+
+#: includes/allpacka.php:824 includes/allpacka.php:856
+#, php-format
+msgid "Successful Pactic order. Pactic order ID: %s. Waybill number: %s."
+msgstr "Comanda Pactic. Numărul comenzii Pactic: %s. Număr AWB: %s."
+
+#: includes/allpacka.php:902
+msgid "Generate label via Pactic"
+msgstr "Generează eticheta de transport prin Pactic"
+
+#: includes/allpacka.php:903
+msgid "Generate and download labels via Pactic"
+msgstr "Generează și descarcă etichete de transport prin Pactic"
+
+#: includes/allpacka.php:904
+msgid "Download labels generated via Pactic"
+msgstr "Descarcă etichetele generate prin Pactic"
+
+#: includes/allpacka.php:1210 includes/allpacka.php:1218
+msgid "Label generated successfully via Pactic."
+msgstr "Eticheta de transport a fost generată cu succes prin Pactic"
+
+#: includes/allpacka.php:1211 includes/allpacka.php:1219
+msgid "Download label"
+msgstr "Descarcă eticheta de transport"
+
+#: includes/allpacka.php:1212 includes/allpacka.php:1220
+msgid "Contains the labels of the following orders:"
+msgstr "Conține etichetele următoarelor comenzi:"
+
+#: includes/allpacka.php:1213
+msgid "Does not contain the labels of the following orders:"
+msgstr "Nu conține etichetele următoarelor comenzi:"
+
+#: includes/allpacka.php:1230
+msgid "Label generation via Pactic failed."
+msgstr "Generarea de etichete de transport prin Pactic a eșuat."
+
+#: includes/allpacka.php:1231
+msgid "None of the selected orders has a label!"
+msgstr "Niciuna dintre comenzile selectate nu are o etichetă de transport!"
+
+#: includes/allpacka.php:1232
+msgid "Webshop order IDs:"
+msgstr "ID-uri comenzi magazin online:"
+
+#: includes/allpacka.php:1266
+msgid "Licensed"
+msgstr "Permis"
+
+#: includes/allpacka.php:1269
+msgid "Not licensed"
+msgstr "Nepermis"
+
+#: includes/allpacka.php:1315
+msgid "Data processed"
+msgstr "Date transmise"
+
+#: includes/allpacka.php:1316
+msgid "Data transferred to carrier"
+msgstr "Datele transferate către transportator"
+
+#: includes/allpacka.php:1319
+msgid "In transit"
+msgstr "În tranzit"
+
+#: includes/allpacka.php:1320
+msgid ""
+"Parcel is in transit, this might mean being in a HUB (central or local) or "
+"being transferred between HUBs."
+msgstr "Coletul este în tranzit sau este într-un HUB central/local."
+
+#: includes/allpacka.php:1323
+msgid "Under delivery"
+msgstr "În livrare "
+
+#: includes/allpacka.php:1324
+msgid "Parcel is at courier, delivery expected soon."
+msgstr "Pachetul este la curier, se așteaptă livrarea în curând."
+
+#: includes/allpacka.php:1327
+msgid "Delivered"
+msgstr "Livrat"
+
+#: includes/allpacka.php:1328
+msgid "Parcel was delivered successfully."
+msgstr "Coletul a fost livrat cu succes."
+
+#: includes/allpacka.php:1331
+msgid "Disruptions"
+msgstr "Excepții"
+
+#: includes/allpacka.php:1332
+msgid ""
+"Disruptions happened (delays, wrong address, delivery rescheduled ect.). "
+"Contact Pactic for more information."
+msgstr ""
+"Au avut loc excepții (întârzieri, adresă greșită, livrare reprogramată "
+"etc.). Contactează Pactic pentru mai multe informații."
+
+#: includes/allpacka.php:1335
+msgid "Return"
+msgstr "Returnat"
+
+#: includes/allpacka.php:1336
+msgid "Parcel sent back to original sender."
+msgstr "Colet trimis înapoi la expeditorul inițial."
+
+#: includes/allpacka.php:1339
+msgid "Deleted"
+msgstr "Anulat"
+
+#: includes/allpacka.php:1340
+msgid "Parcel delivery cancelled at carrier company."
+msgstr "Livrarea coletului a fost anulată către firma de transport."
+
+#: includes/allpacka.php:1343
+msgid "No data available"
+msgstr "Nu există date disponibile"
+
+#: includes/allpacka.php:1344
+msgid ""
+"Data transferred to carrier, but not acknowledged yet. Please note that this "
+"status exists only on the website for now. This web service returns nothing "
+"when no data is available."
+msgstr ""
+"Date transferate către transportator, dar încă necunoscute. Reține că acesta "
+"informație există doar pe website momentan. Sistemul nu răspunde când nu "
+"există date disponibile."
+
+#: includes/allpacka.php:1347
+msgid "Damaged"
+msgstr "Deteriorat"
+
+#: includes/allpacka.php:1348
+msgid "Parcel got damanged."
+msgstr "Coletul a fost deteriorat."
+
+#: includes/allpacka.php:1351
+msgid "Dropoff point"
+msgstr "Livrat la un punct de colectare "
+
+#: includes/allpacka.php:1352
+msgid "Parcel is in dropoff point."
+msgstr "Coletul se află în punctul de primiri colete."
+
+#: includes/allpacka.php:1355
+msgid "Missing"
+msgstr "Pierdut"
+
+#: includes/allpacka.php:1356
+msgid "Parcel went missing"
+msgstr "Colet pierdut"
+
+#: includes/allpacka.php:1359 includes/allpacka.php:1360
+msgid "Refused"
+msgstr "Refuzat"
+
+#: includes/allpacka.php:1363
+msgid "Consignee absent"
+msgstr "Destinatar absent"
+
+#: includes/allpacka.php:1364
+msgid "Consignee Absent"
+msgstr "Destinatar absent"
+
+#: includes/allpacka.php:1367
+msgid "Wrong address"
+msgstr "Adresa gresita"
+
+#: includes/allpacka.php:1371
+msgid "HUB Storage"
+msgstr "Depozitare HUB"
+
+#: includes/allpacka.php:1375
+msgid "Rescheduled delivery"
+msgstr "Livrare reprogramata"
+
+#: includes/allpacka.php:1379
+msgid "Missorted or delayed"
+msgstr "Sortat gresit sau intarziat"
+
+#: includes/allpacka.php:1383
+msgid "Undeliverable - Driver ran out of time"
+msgstr "Nelivrat-lipsa timp"
+
+#: includes/allpacka.php:1387
+msgid "Lack of Money"
+msgstr "Lipsa bani"
+
+#: includes/allpacka.php:1391
+msgid ""
+"Undeliverable - Obstacle preventing delivery (e.g. gated community, closed "
+"entrance etc)"
+msgstr "Nelivrat-acces inchis"
+
+#: includes/allpacka.php:1395
+msgid "Undeliverable"
+msgstr "Nu s-a putut livra"
+
+#: includes/allpacka.php:1399
+msgid "Oversized"
+msgstr "Agararitic"
+
+#: includes/allpacka.php:1403
+msgid "Change of delivery address"
+msgstr "Schimbare adresa de livrare"
+
+#: includes/allpacka.php:1407
+msgid "Consignee Contacted"
+msgstr "Destinatarul a fost contactat"
+
+#: includes/allpacka.php:1411
+msgid ""
+"Processing at customs (if necessary, sender/recipient will be contacted)"
+msgstr "In proces de vamuire"
+
+#: includes/allpacka.php:1415
+msgid "Picked up by the driver"
+msgstr "Coletul a fost ridicat de la expeditor"
+
+#: includes/allpacka.php:1419
+msgid "Shipment arrived to sorting centre / Shipment in the sorting centre"
+msgstr "Coletul se afla la centrul de sortare"
+
+#: includes/allpacka.php:1423
+msgid "Arrived To HUB"
+msgstr "Sosit in HUB"
+
+#: includes/allpacka.php:1427
+msgid "Linehaul Transit"
+msgstr "În tranzit masina de linie"
+
+#: includes/allpacka.php:1431
+msgid "Dropped Off"
+msgstr "Descarcat"
+
+#: includes/allpacka.php:1435
+msgid "Final Return"
+msgstr "Retur final"
+
+#: includes/allpacka.php:1439
+msgid "Consolidated By Sender"
+msgstr "Consolidat la expeditor"
+
+#: includes/allpacka.php:1443
+msgid "Arrived and consolidated RO"
+msgstr "Receptionat si consolidat HUB RO"
+
+#: includes/allpacka.php:1447
+msgid "Arrived and consolidated HU"
+msgstr "Receptionat si consolidat HUB HU"
+
+#: includes/allpacka.php:1451
+msgid "Arrived to HU HUB"
+msgstr "Ajuns HUB HU"
+
+#: includes/allpacka.php:1455
+msgid "Arrived to RO HUB"
+msgstr "Ajuns HUB RO"
+
+#: includes/allpacka.php:1459
+msgid "Returned to Pactic"
+msgstr "Returnat la Pactic"
+
+#: includes/allpacka.php:1463
+msgid "Returned to Customer"
+msgstr "Returnat la expeditor"
+
+#: includes/allpacka.php:1467
+msgid "Non-standard parcel rejection at Pactic"
+msgstr "Respingerea coletelor nestandardizate la Pactic"
+
+#: includes/allpacka.php:1527
+msgid "file deleted."
+msgstr "Fișierul a fost șters"
+
+#: includes/allpacka.php:1555
+msgid "Error message from Pactic"
+msgstr "Mesaj de eroare de la Pactic"
+
+#: includes/allpacka.php:1557
+msgid ""
+"To use this plugin, you need to install the Client URL Library or enable "
+"allow_url_fopen. Please contact the website operator."
+msgstr ""
+"Pentru a utiliza acest plugin, instalează Client URL Library sau activează "
+"allow_url_fopen. Contactează operatorul website-ului."
+
+#: includes/allpacka.php:1584
+msgid "Pactic warning"
+msgstr "Atenționare Pactic"
+
+#: includes/allpacka.php:1593
+msgid "Additional payment methods for COD in your webshop."
+msgstr "Metode suplimentare de plată COD în magazinul tău online."
+
+#: includes/allpacka.php:1594
+msgid "Set up here."
+msgstr "Setează aici."
+
+#: includes/allpacka.php:1599
+msgid "I understood"
+msgstr "Accept"
+
+#: includes/mergepdf.php:22
+msgid "Error while generating label!"
+msgstr "Eroare la generarea etichetei!"
+
+#~ msgid "Data processed by carrier"
+#~ msgstr "Datele prelucrate de transportator"
+
+#~ msgid "Out for delivery"
+#~ msgstr "În curs de livrare"
+
+#~ msgid "Returned"
+#~ msgstr "Returnat"
+
+#~ msgid "Cancelled"
+#~ msgstr "Anulat"
+
+#~ msgid "Dropoff Point"
+#~ msgstr "Punct de primiri colete"
+
+#~ msgid "Fürgefutár.hu warning"
+#~ msgstr "Atenționare Pactic"
+
+#~ msgid "GLS Parcel Point selector"
+#~ msgstr "Selector GLS Parcel Point"
+
+#~ msgid "Selected GLS Parcel Point:"
+#~ msgstr "GLS Parcel Point selectat:"
+
+#~ msgid "Search by ZIP code"
+#~ msgstr "Căutare după codul poștal"
+
+#~ msgid "Parcel Point selection happens in the next step"
+#~ msgstr "Selectarea GLS Parcel Point se face în pasul următor"
+
+#~ msgid "Select"
+#~ msgstr "Selectează"
+
+#~ msgid "COD payment methods"
+#~ msgstr "Metode de plată ramburs"
+
+#~ msgid "Please choose your COD payment methods"
+#~ msgstr "Alege metodele de plată ramburs"
+
+#~ msgid "GLS Parcel Point settings"
+#~ msgstr "Setări GLS Parcel Point"
+
+#~ msgid "Display mode"
+#~ msgstr "Modul de afișare"
+
+#~ msgid "Dropdown"
+#~ msgstr "Mai jos"
+
+#~ msgid "Map"
+#~ msgstr "hartă"
+
+#~ msgid "Google Maps API key"
+#~ msgstr "Tasta Google Maps API"
+
+#~ msgid "If you choose Map display mode, you need a Google Maps API key"
+#~ msgstr ""
+#~ "Dacă ai ales modul afișare hartă, ai nevoie de o tastă Google Maps API"
+
+#~ msgid "GLS Parcel Point"
+#~ msgstr "GLS Parcel Point"
+
+#~ msgid "Delivery to GLS Parcel Point"
+#~ msgstr "Livrare către GLS Parcel Point"
+
+#~ msgid "Name"
+#~ msgstr "Nume"
+
+#~ msgid "Name seen by customers at Checkout"
+#~ msgstr "Numele văzut de clienți la Checkout"
+
+#~ msgid "Price"
+#~ msgstr "Preț"
+
+#~ msgid "Shipping cost"
+#~ msgstr "Costul transportului"
+
+#~ msgid "Please select a GLS Parcel Point"
+#~ msgstr "Selectează un GLS Parcel Point"
+
+#~ msgid "GLS Parcel Point added."
+#~ msgstr "GLS Parcel Point adăugat."
+
+#~ msgid "GLS Parcel Point modified."
+#~ msgstr "GLS Parcel Point modificat."
+
+#~ msgid "GLS Parcel Point removed."
+#~ msgstr "GLS Parcel Point eliminat."
+
+#~ msgid "Modify"
+#~ msgstr "Modifică"
+
+#~ msgid "Remove selected GLS Parcel Point"
+#~ msgstr "Elimină GLS Parcel Point selectat"
+
+#~ msgid "Selected GLS Parcel Point"
+#~ msgstr "GLS Parcel Point selectat"
+
+#~ msgid "The Customer Service of Pactic send you the waybill."
+#~ msgstr "AWB-ul a fost trimis de serviciul Relații cu Clienții Pactic."
+
+#~ msgid "Successful Pactic order. Webshop order ID:"
+#~ msgstr "Comandă Pactic procesată cu succes. Număr comandă magazin online:"
+
+#~ msgid "Fuvarlevélszám:"
+#~ msgstr "Număr de urmărire:"
+
+#~ msgid "Pactic error message:"
+#~ msgstr "Mesaj Pactic de eroare:"
+
+#~ msgid "No response received from Pactic for the request."
+#~ msgstr "Niciun răspuns primit din partea Pactic pentru solicitare."
+
+#~ msgid "House number"
+#~ msgstr "Numărul casei"
+
+#~ msgid "19/B"
+#~ msgstr "19/B"
